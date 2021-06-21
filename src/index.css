@@ -1,0 +1,65 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: teal;
+
+  color: white;
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+  display: flex;
+
+
+
+  }
+
+  .nav a{
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    text-decoration: none;
+  }
+
+
+.container{
+  background-color: #dedede;
+  padding: 20px 150px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.card-confirmed,.card-deaths,.card-recovered{
+  height: 150px;
+  border-radius: 5px;
+  margin:10px ;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  
+}
+.card-confirmed{
+box-shadow: 5px 6px yellow;
+color: rgb(red, green, blue);
+}
+.card-recovered{
+  box-shadow: 5px 6px green;
+  color: rgb(red, green, blue);
+
+}
+.card-deaths{
+  box-shadow: 5px 6px red;
+  color:red ;
+}
+.card-header{
+  margin-bottom: 20px;
+}
+
